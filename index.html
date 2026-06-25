@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Chat UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo">💬 Chat UI Pro</div>
+
+        <div class="suggestions">
+            <button onclick="quick('What is HTML?')">HTML</button>
+            <button onclick="quick('What is CSS?')">CSS</button>
+            <button onclick="quick('What is JavaScript?')">JavaScript</button>
+            <button onclick="quick('How to learn coding?')">Coding Tips</button>
+        </div>
+
+        <div class="footer">
+            <button onclick="toggleDark()">🌙 Theme</button>
+            <button onclick="clearChat()">🗑 Clear</button>
+        </div>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div class="chat">
+
+        <div class="header">
+            🤖 Premium Chat Assistant
+        </div>
+
+        <div id="chatBox"></div>
+
+        <div class="typing" id="typing">Typing...</div>
+
+        <div class="inputBox">
+            <input type="text" id="input" placeholder="Message...">
+            <button onclick="send()">➤</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
