@@ -2,7 +2,7 @@
 A modern ChatGPT-style frontend chatbot UI built using HTML, CSS, and JavaScript. This project focuses on UI/UX design, chat simulation, and frontend development skills.
 
 ## 🚀 Live Preview
-👉 https://your-live-link.netlify.app
+👉https://chimerical-fenglisu-274291.netlify.app/
 
 ## 📸 Preview
 <img width="1907" height="990" alt="image" src="https://github.com/user-attachments/assets/c28ae193-6f30-44b8-9c6c-c91438c3c1be" />
